@@ -1,1 +1,8 @@
-spring.application.name=api-gateway
+server:
+  port: 19091
+
+spring:
+  application:
+    name: api-gateway
+  profiles:
+    active: local
