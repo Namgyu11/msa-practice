@@ -1,1 +1,6 @@
 rootProject.name = 'msa-practice'
+include 'auth-service'
+include 'product-service'
+include 'order-service'
+include 'common-service'
+include 'api-gateway'
